@@ -3,47 +3,22 @@
  */
 package cag.mickmurphy.com;
 
+import java.util.Random;
+
 /**
  * @author User1
  *
  */
 public class Fighters {
 
-	 private String fighterName = "";
-	 private int fighterHealth = 100;
-	 private String fighterStyle = "";
-	 private String headGear = "";
-	 private String bodyArmnour = "";
-	 private String boots ="";
-	 
-	/**
-	 * @return the fighterName
-	 */
-	public String getFighterName() {
-		return fighterName;
-	}
+	
+	//	 private int fighterHealth = 100;
+	private String fighterStyle = "";
+	private String headGear = "";
+	private String bodyArmour = "";
+	private String boots ="";
 
-	/**
-	 * @param fighterName the fighterName to set
-	 */
-	public void setFighterName(String fighterName) {
-		this.fighterName = fighterName;
-	}
-
-	/**
-	 * @return the fighterHealth
-	 */
-	public int getFighterHealth() {
-		return fighterHealth;
-	}
-
-	/**
-	 * @param fighterHealth the fighterHealth to set
-	 */
-	public void setFighterHealth(int fighterHealth) {
-		this.fighterHealth = fighterHealth;
-	}
-
+	
 	/**
 	 * @return the fighterStyle
 	 */
@@ -76,14 +51,14 @@ public class Fighters {
 	 * @return the bodyArmnour
 	 */
 	public String getBodyArmnour() {
-		return bodyArmnour;
+		return bodyArmour;
 	}
 
 	/**
 	 * @param bodyArmnour the bodyArmnour to set
 	 */
 	public void setBodyArmnour(String bodyArmnour) {
-		this.bodyArmnour = bodyArmnour;
+		this.bodyArmour = bodyArmnour;
 	}
 
 	/**
@@ -101,7 +76,7 @@ public class Fighters {
 	}
 
 	public Fighters() {
-	
+
 	}
 
 
